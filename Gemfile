@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
+gem 'devise'
 
 group :production do 
 	gem 'pg'
@@ -10,6 +11,8 @@ end
 group :development, :test do
 	gem 'sqlite3'
 end
+
+gem 'bootstrap-sass', '~> 2.2.2.0'
 
 group :assets do
 

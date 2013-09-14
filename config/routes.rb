@@ -1,6 +1,8 @@
 Daveapp::Application.routes.draw do
   devise_for :users
   get 'lessons' => 'pages#lessons'
+  get 'less1' => 'pages#less1'
+  get 'less2' => 'pages#less2'
 
   root :to => 'pages#home'
   # The priority is based upon order of creation: first created -> highest priority.
